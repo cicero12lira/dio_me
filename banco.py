@@ -102,8 +102,3 @@ while True:
         print('Escolha uma das opções:')
 
 
-banco.consultar_saldo()
-banco.depositar(300)
-banco.sacar(200)
-banco.sacar(2000)  # Tentativa de saque acima do limite
-banco.sacar(700)   # Tentativa de saque com saldo insuficiente
